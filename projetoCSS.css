@@ -1,0 +1,347 @@
+@font-face{
+	font-family:"Brasilia";
+	src: url(Brasilia.ttf);
+}
+
+/* Header inicial */
+.header {
+    background-image: url(background-heading2.jpg);
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    padding: 1% 1%;
+    height: 7%;
+    width: 100vw;
+    text-align: center;
+    font-family: Brasilia;
+    color: #0E5E95;
+    text-align: left;
+    width: 100vw;
+  }
+
+/* Características da sticky navbar */
+  #navbar {
+	z-index: 999; /* ESSA MERDA que coloca a navbar acima de todos os elementos */
+    overflow: hidden;
+    background-color: #6DAEDB;
+    width: 100%;
+  }
+  
+  #navbar a {
+  	font-family: Brasilia;
+  	float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0.6% 4%;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #173753;
+    color: #FFFFFF;
+  }
+  
+  #navbar a.active {
+    background-color: #FFFFFF;
+    color: #6DAEDB;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+/* Aqui termina as características da stick navbar */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Características gerais dos DIV */
+.page{
+	padding: 40px 50px;
+	background-color: #FFFFFF;
+	height:30vh; 
+	font-family:Brasilia;
+	color:#6DAEDB
+	text-align: center;
+}
+.div{
+	background-color: #FFFFFF;
+	font-size: 2em;
+	text-align: center;
+}
+.text-div{
+	margin-top: 2px;
+	font-family: Brasilia;
+	color:#6DAEDB;
+	font-size: 3.2em;
+	text-align: center;
+}
+.div-image{
+	margin-top: 0.8%;
+	text-align: center;
+	height: 128px;
+}
+.menu-image-size{
+	margin-bottom: 6px;
+	height: 1.1em;
+}
+.fundo{
+	width: 100%;
+   	background: #173753;
+   	border-radius: 13px;
+   	margin-left: auto;
+   	margin-right: auto;
+   	margin-top: 20px;
+	margin-bottom: 20px;
+   	padding: 20px;
+}
+.imagens{
+	z-index: 990;
+	float:left;
+}
+.titulo{
+	font-family: Brasilia;
+	font-size: 2.5em;
+	color: white;
+}
+.texto{
+	font-family: OCR A;
+	font-size: 1.5em;
+	color: white;
+}
+#email{
+	font-size: 90%;
+}
+
+#imgxp{
+	display: block;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* Características de cada div */
+
+#principal{
+	background-image: url("background-home.jpg");
+	height: 70%;
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: left;
+	position: relative;
+}
+
+#sobre{
+	background-image: url("background-sobre.png");
+	height: 120%;
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: left;
+	position: relative;
+}
+
+#xp{
+	background-image: url("background-xp.jpg");
+	height: 100%;
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: left;
+	position: relative;
+}
+#curiosidade{
+	background-image: url("backgorund-curiosidade.png");
+	height: 300%;
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: left;
+	position: relative;
+}
+#objetivo{
+	background-image: url("background-objetivos.png");
+	height: 150%;
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: left;
+	position: relative;
+}
+#qualific{
+	background-image: url("background-home.jpg");
+	height: 150%;
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: left;
+	position: relative;
+}
+#contato{
+	background-image: url("background-contato.png");
+	height: 150%;
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: left;
+	position: relative;
+}
+
+@media(max-width:2560px){
+	.titulo{
+		font-size: 4em;
+	}
+	.texto{
+		font-size: 3em;
+	}
+	.text-div{
+		margin-top: 2px;
+		font-family: Brasilia;
+		color:#6DAEDB;
+		font-size: 7em;
+		text-align: center;
+	}
+	.div-image{
+		margin-top: 0.8%;
+		text-align: center;
+		height: 7em;
+	}
+	 #navbar a {
+  	font-family: Brasilia;
+  	float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0.6% 4%;
+    text-decoration: none;
+    font-size: 32px;
+  }
+}
+
+@media(max-width:1440px){
+	.titulo{
+		font-size: 2.5em;
+	}
+	.texto{
+		font-size: 1.5em;
+	}
+	.text-div{
+		margin-top: 2px;
+		font-family: Brasilia;
+		color:#6DAEDB;
+		font-size: 4em;
+		text-align: center;
+	}
+	.div-image{
+		margin-top: 0.8%;
+		text-align: center;
+		height: 128px;
+	}
+	#navbar a {
+  	font-family: Brasilia;
+  	float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0.6% 4.18%;
+    text-decoration: none;
+    font-size: 1em;
+  }
+}
+
+@media(max-width:1024px){
+	.titulo{
+		font-size: 1.9em;
+	}
+	.texto{
+		font-size: 1em;
+	}
+	.imagens{
+		size: 2em;
+	}
+	#email{
+		font-size: 80%;
+	}
+	.text-div{
+		margin-top: 2px;
+		font-family: Brasilia;
+		color:#6DAEDB;
+		font-size: 2.8em;
+		text-align: center;
+	}
+	.div-image{
+		margin-top: 0.8%;
+		text-align: center;
+		height: 3em;
+	}
+} 
+@media(max-width:425px){
+	.titulo{
+		font-size: 1.5em;
+	}
+	.texto{
+		font-size: 1em;
+	}
+	.imagens{
+		size: 1.3em;
+	}
+	#email{
+		font-size: 60%;
+	}
+	.text-div{
+		margin-top: 2px;
+		font-family: Brasilia;
+		color:#6DAEDB;
+		font-size: 2.8em;
+		text-align: center;
+	}
+	.div-image{
+		margin-top: 0.8%;
+		text-align: center;
+		height: 3em;
+	}
+	#imgxp{
+		display: block;
+		width: 115%;
+		padding-right: 35px;
+	}
+}
+@media(max-width:320px){
+	.titulo{
+		font-size: 1em;
+	}
+	.texto{
+		font-size: 0.6em;
+	}
+	.imagens{
+		size: 0.8em;
+	}
+} 
