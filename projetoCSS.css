@@ -3,11 +3,6 @@
 	src: url(Brasilia.ttf);
 }
 
-@font-face{
-	font-family:"OCR A";
-	src: url(OCRAEXT.TTF);
-}
-
 /* Header inicial */
 .header {
     background-image: url(background-heading2.jpg);
