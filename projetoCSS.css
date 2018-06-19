@@ -2,6 +2,10 @@
 	font-family:"Brasilia";
 	src: url(Brasilia.ttf);
 }
+@font-face{
+	font-family:"OCR A";
+	src:url(ORC A.otf);
+}
 
 /* Header inicial */
 .header {
